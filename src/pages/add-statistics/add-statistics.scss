@@ -1,0 +1,39 @@
+page-add-statistics {
+    .item {
+       
+        background-color: #f8f8f8;
+       
+    }
+      .scroll-content {
+        padding: 16px;
+        background-color: #f8f8f8;
+    }
+
+    .label-md[floating] {
+        margin-left: 0;
+        margin-right: 17px;
+        margin-bottom: 0;
+    }
+    .buttonID2{
+        margin-top: 20%;
+       
+        padding: 7px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #1abc9c;
+       
+    }
+    .item  .item-button {
+        padding: 0 0.6em;
+        height: 55px;
+        border-radius: 9px;
+        font-size: 2.2rem;
+    }
+
+    #headerImg{
+        width: 40%;
+        position: relative;
+        left: 30%;
+       
+    }
+}

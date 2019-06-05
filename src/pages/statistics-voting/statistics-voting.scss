@@ -1,0 +1,176 @@
+page-statistics-voting {
+  
+        @font-face {
+            font-family: Ormont_Light;
+            src: url(../assets/fonts/droidfont.ttf) format("ttf");
+             
+            font-weight: 200
+            }
+            
+            @font-face {
+                font-family: myFirstFont;
+                src: url(sansation_light.woff);
+            }
+            
+            #spanClick{
+            
+                color: #fbfafa;
+                border-radius: 8px;
+             
+                background-color:#34495e;
+                padding-right: 9px;
+                padding-right: 9px;
+                padding-left: 9px;
+                margin-left: 9px;
+                margin-right: 9px;
+                margin-bottom:   9px;
+                margin-top: 9px;
+            
+              }
+             
+            *{
+              font-family: 'Cairo', sans-serif;
+            }
+            
+            
+            
+            .tabs-md .tabbar {
+                background: #3E3E3E;
+            }
+            
+            .tabs-ios .tabbar {
+              color : #FFFFFF;
+              background: #3E3E3E;
+            }
+            
+            .tabs-md .tab-button[aria-selected=true] {
+                color: #F9CA24; 
+               
+            }
+            
+            .tabs-md .tab-button {
+             
+                color: #FFFFFF;
+             
+            }
+            
+            .tabs-md .tab-button-icon {
+             
+              color: #FFFFFF;
+             
+            }
+            
+            .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+                color: #F9CA24;
+             
+            }
+            
+            
+            .content  {
+              background-color: #fbfafa;
+               
+            }
+            
+    
+        #mainDiv{
+            padding: 1%;
+            background-color: #36A5FB;
+            color: white;
+            margin-top: 8%;
+            margin-left: 4%;
+            margin-right: 4%;
+            border-radius: 9px;
+            box-shadow: 1px 4px 12px #36a5fb6e;
+        }
+        .content-md hr {
+            background-color: rgb(255, 255, 255);
+    
+        }
+        #mainH2{ 
+            padding-top: 8%;
+            padding-bottom: 12px;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+    
+        #mainText{
+            padding-top: 8%;
+            padding-bottom: 12px;
+        }
+        #grid2{
+            padding: 0px;
+            margin-top:  0px;
+        }
+    
+        .col {
+             padding:0px; 
+             margin: 0px;
+        }
+    
+        .bottom-left {
+            position: absolute;
+            bottom: 38px;
+            left: 29px;
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        
+    
+        .top-right {
+            position: absolute;
+            top: 15%;
+            right: 28%;
+            font-weight: bold; 
+        }
+        h6 {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #6f6fd3;
+        }
+        h5 {
+            color: #6f6fd3;
+            font-weight: bold;
+        }
+     
+        .myColor{
+            color: #786FA6;
+        }
+    
+        #mainHeader{
+            
+            padding-right: 6%;
+            font-size: 4rem;
+             color:#A5A5A5;
+             font-weight: bold;
+        }
+    
+        #getStyle{
+            left: 8%;
+            position: relative;
+            bottom: 40px;
+        }
+        #paddingToright{
+            padding-right: 6%;
+            padding-left: 1%;
+        }
+    
+
+        #headerImg{
+            padding-right:10px; 
+            padding-left:10px; 
+            padding-bottom:10px; 
+            padding-top:20%; 
+            margin: 20px;
+        }
+
+        #backCss{
+            position: relative;
+            padding-top: 8%;
+            padding-left: 7%;
+            width: 12%;
+    
+        }
+    }
+    
+ 

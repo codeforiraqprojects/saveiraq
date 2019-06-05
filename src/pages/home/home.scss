@@ -1,0 +1,180 @@
+page-home {
+
+    @font-face {
+        font-family: Ormont_Light;
+        src: url(../assets/fonts/droidfont.ttf) format("ttf");
+         
+        font-weight: 200
+        }
+        
+        @font-face {
+            font-family: myFirstFont;
+            src: url(sansation_light.woff);
+        }
+        
+        
+         
+        *{
+          font-family: 'Cairo', sans-serif;
+        }
+        
+        
+        
+        .tabs-md .tabbar {
+            background: #3E3E3E;
+        }
+        
+        .tabs-ios .tabbar {
+          color : #FFFFFF;
+          background: #3E3E3E;
+        }
+        
+        .tabs-md .tab-button[aria-selected=true] {
+            color: #F9CA24; 
+           
+        }
+        
+        .tabs-md .tab-button {
+         
+            color: #FFFFFF;
+         
+        }
+        
+        .tabs-md .tab-button-icon {
+         
+          color: #FFFFFF;
+         
+        }
+        
+        .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+            color: #F9CA24;
+         
+        }
+        
+        
+        .content  {
+          background-color: #fbfafa;
+           
+        }
+        
+
+    #mainDiv{
+        padding: 4%;
+        background-color: #36A5FB;
+        color: white;
+        margin-top: 8%;
+        margin-left: 4%;
+        margin-right: 4%;
+        border-radius: 9px;
+        box-shadow: 1px 4px 12px #36a5fb6e;
+    }
+    .content-md hr {
+        background-color: rgb(255, 255, 255);
+
+    }
+    #mainH2{ 
+        padding-top: 4%;
+        padding-bottom: 7%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    #mainText{
+        padding-top: 3%;
+        padding-bottom: 12px;
+    }
+    #grid2{
+        padding: 0px;
+    }
+
+    .col {
+         padding:0px; 
+ 
+    }
+
+    .top-right {
+        position: absolute;
+        top: 12%;
+        right: 16%;
+        font-weight: bold; 
+    }
+    h6 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #6f6fd3;
+    }
+    h5 {
+        color: #6f6fd3;
+        font-weight: bold;
+    }
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        color: #6f6fd3;
+    }
+
+    .centered2 {
+        position: absolute;
+        top: 55%;
+        left: 65%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+    }
+
+    .top-right2 {
+        position: absolute;
+        top: 7%;
+        right: 16%;
+        font-weight: bold; 
+       
+    }
+    .top-right3 {
+        position: absolute;
+        top: 7%;
+        right: 38%;
+        font-weight: bold; 
+        
+    }
+    .myColor{
+        color: #ffffff;
+    }
+    .myColor2{
+        color: #6f6fd3;
+    }
+    #myBtn1{
+        padding-top: 5%;
+        font-weight: bold; 
+    }
+
+
+
+    #mainDiv2{
+        color: #A5A5A5;
+    }
+
+
+
+    #headerImg{
+         width: 11%;
+         float: right;
+        // padding-top: 1%;
+        padding-right: 4%;
+    }
+
+
+    .emailCSS{
+        color:#A5A5A5;
+        padding-left    : 5%;
+    }
+
+    .content-ios hr {
+        height: 0.55px;
+        background-color: rgb(255, 255, 255);
+    }
+
+}

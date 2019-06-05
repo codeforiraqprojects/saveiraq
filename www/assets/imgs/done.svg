@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291 291">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #40c5ab;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 40px;
+        font-family: DroidArabicKufi, Droid Arabic Kufi;
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_257);
+      }
+    </style>
+    <filter id="Ellipse_257" x="0" y="0" width="291" height="291" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#40c5ab" flood-opacity="0.365"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1064" data-name="Group 1064" transform="translate(-33 -179)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 33, 179)">
+      <circle id="Ellipse_257-2" data-name="Ellipse 257" class="cls-1" cx="136.5" cy="136.5" r="136.5" transform="translate(9 5)"/>
+    </g>
+    <path id="ic_done_24px" class="cls-2" d="M31.158,58.141,10.339,37.323,3.4,44.262,31.158,72.02,90.638,12.539,83.7,5.6Z" transform="translate(140.962 328.38)"/>
+    <text id="تم_التصويت" data-name="تم التصويت" class="cls-3" transform="translate(75 296)"><tspan x="0" y="0">تم التصويت</tspan></text>
+  </g>
+</svg>

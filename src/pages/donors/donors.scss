@@ -1,0 +1,104 @@
+page-donors {
+    #staticss{
+       
+        color: #707070;
+        position: initial;
+    }
+
+    .list-ios {
+        margin: 3%;
+    }
+
+    #donorsInfo{
+        position: relative;
+        bottom:7%;
+    }
+    
+    .list-ios > .item-block:first-child {
+        border: 2px solid #e74c3c;
+    }
+    .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+        border: 2px solid #e74c3c;
+    }
+
+    #containB{
+        background-color: #48C7AD;
+        color: white;
+        border-radius: 9px;
+        padding-top: 6%;
+        padding-right: 7%;
+        padding-bottom: 2px;
+        padding-left: 2px;
+    }
+
+    #personIcon{
+        font-size: 6rem;
+        color: #40739e;
+    }
+    .pFont{
+        font-size: 12px; 
+    }
+    #myBtn1{
+        padding-right: 7%;
+    }
+    #spanClick{
+        
+      color: #fbfafa;
+      border-radius: 8px;
+   
+      background-color:#34495e;
+      padding-right: 9px;
+      padding-left: 9px;
+      margin: 9px;
+  
+    }
+
+    .item  {
+        margin-bottom: 4%;
+        color: #000;
+        background-color: #fbfafa;
+        border: 2px solid #e74c3c;
+        border-radius: 9px;
+ }
+
+ .list-md {
+    margin: 2%;
+    
+}
+
+ 
+.searchbar  {
+    padding: 0 17px;
+    min-height: 44px;
+    border-top: 0.55px solid transparent;
+    border-bottom: 0.55px solid rgb(251, 250, 250);
+    background: rgb(251, 250, 250);
+}
+
+
+.searchbar .searchbar-input {
+    box-shadow: 2px 4px 12px #c74d401f;
+    padding: 8%;
+    border-radius: 9px;
+    height: 3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    background-color: white;
+}
+
+
+.searchbar  .searchbar-search-icon {
+    left: 9px;
+    top: 16px;
+    
+}
+
+ 
+
+
+
+
+}
+ 
+ 

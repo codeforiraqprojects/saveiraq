@@ -1,0 +1,55 @@
+page-statistics {
+
+    #staticss{
+        font-size: 3rem;
+        color: #707070;
+        
+    }
+
+    #containB{
+        background-color: #48C7AD;
+        color: white;
+        border-radius: 9px;
+        padding-top: 6%;
+        padding-right: 7%;
+        padding-bottom: 0px;  
+        margin-bottom: 4%;
+        padding-left: 7%;
+    }
+
+    #getStyle{
+        left: 8%;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #spanClick{
+        
+        color: #fbfafa;
+        border-radius: 8px;
+     
+        background-color:#34495e;
+        padding-right: 9px;
+        padding-right: 9px;
+        padding-left: 9px;
+        margin-left: 9px;
+        margin-right: 9px;
+        margin-bottom:   9px;
+        margin-top: 9px;
+    
+      }
+
+      .likeCSS{
+          position: relative;
+      }
+
+      .hrColor{
+          color: white;
+      }
+      .content-md hr {
+        background-color: rgb(255, 255, 255);
+    }
+    .content-ios hr {
+        background-color: rgb(255, 255, 255);
+    }
+}

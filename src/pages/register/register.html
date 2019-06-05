@@ -1,0 +1,30 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content >
+
+    <div id="headerIcon">
+      <ion-icon ios="ios-log-in" md="md-log-in"></ion-icon>
+    </div>
+  
+    <div padding>
+      
+         
+           
+            <ion-input class="inputID"  [(ngModel)]='data.email' placeholder="Email" type="text"></ion-input>
+         
+           
+            <ion-input  class="inputID1"   [(ngModel)]='data.password'  placeholder="password"  type="password"></ion-input>
+         
+              <button  ion-button large  class="buttonID"   ion-button large  (click)="register()" >  حساب جديد     </button>
+            
+                <a class="buttonID2" (click)="login()" >            تسجيل دخول   </a>
+               
+   
+      </div>
+  
+  
+  </ion-content>

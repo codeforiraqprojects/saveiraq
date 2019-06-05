@@ -1,0 +1,80 @@
+<!--
+  Generated template for the AddDonorPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border no-shadow>
+
+    <ion-navbar >
+      
+    </ion-navbar>
+  
+  </ion-header>
+
+
+<ion-content padding>
+
+    <img id="headerImg" src="assets/imgs/adddonor.png" >
+
+    <ion-list  >
+
+    <ion-item  text-right>
+      <ion-label   floating>الاسم الثلاثي</ion-label>
+      <ion-input   text-right  [(ngModel)]='locations.name' type="text"></ion-input>
+    </ion-item>
+  
+    <ion-item  text-right>
+      <ion-label  floating>مبلغ المتبرع به</ion-label>
+      <ion-input   text-right  [(ngModel)]='locations.amount'  type="text"></ion-input>
+    </ion-item>
+
+ 
+       
+        <ion-item  text-right  >
+          <ion-label floating>المحافظة</ion-label>
+          <ion-select [(ngModel)]="locations.province">
+            <ion-option value="Al Anbar">Al Anbar</ion-option>
+            <ion-option selected="selected" value="Babil">Babil</ion-option>
+            <ion-option value="Baghdad">Baghdad</ion-option>
+            <ion-option value="Basra">Basra</ion-option>
+            <ion-option value="Dhi Qar">Dhi Qar</ion-option>
+            <ion-option value="Al-Qadisiyyah">Al-Qadisiyyah</ion-option>
+            <ion-option value="Diyala">Diyala</ion-option>
+            <ion-option value="Dohuk">Dohuk</ion-option>
+            <ion-option value="Erbil">Erbil</ion-option>
+            <ion-option value="Karbala">Karbala</ion-option>
+            <ion-option value="Kirkuk">Kirkuk</ion-option>
+            <ion-option value="Maysan">Maysan</ion-option>
+            <ion-option value="Muthanna">Muthanna</ion-option>
+            <ion-option value="Najaf">Najaf</ion-option>
+            <ion-option value="Nineveh">Nineveh</ion-option>
+            <ion-option value="Saladin">Saladin</ion-option>
+            <ion-option value="Sulaymaniyah">Sulaymaniyah</ion-option>
+            <ion-option value="Wasit">Wasit</ion-option> 
+          </ion-select>
+        </ion-item>
+
+
+
+        <ion-item  text-right>
+          <ion-label floating>طريقة الدفع</ion-label>
+          <ion-select [(ngModel)]="locations.paidBy">
+            <ion-option value="Western Union">Western Union</ion-option>
+            <ion-option value="AsiaHawala">آسيا حوالة</ion-option>
+            <ion-option value="Zain Cash">Zain Cash</ion-option>
+            <ion-option value="insideOffice">مكاتب تحويل محافظات</ion-option>
+          </ion-select>
+        </ion-item>
+ 
+
+          <ion-item  >
+   <button ion-button block class="buttonID2"  (click)="addLocation(locations)">اضافة     </button>
+
+            </ion-item>
+      
+      </ion-list>
+
+
+
+</ion-content>

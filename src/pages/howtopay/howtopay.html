@@ -1,0 +1,56 @@
+<!--
+  Generated template for the HowtopayPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+ 
+
+<ion-content padding>
+
+ 
+
+
+<div id='mainHeader'>
+  <p text-right	>      طرق التبرع     </p>
+</div> 
+ 
+
+<div id="ourbranch" text-right  >
+    <p text-right	>   مرحبا بكم و شكرا لتبرعكم   </p>
+    <p text-right	>   بدعمكم يزداد العطاء  </p>
+<div  *ngFor="let challenge of howtopayList | async">
+    <p text-right	> : يمكنكم التبرع عن طريق إحدى الوسائل التاليه     </p>
+    <p text-right	> {{challenge.zain}} ١- زين كاش على الرقم    </p>
+    <p text-right	> {{challenge.asia}}  ٢- اسيا حواله على الرقم   </p>
+    <br>
+    <p text-right	>
+      
+        التحويل عن طريق الويسترن يونيون يتطلب منك 
+        تزويد اسم الشخص المستلم كما مكتوب في الجواز و اسم البلد و المحافظة و عند استلامك رقم التحوالة يرجى ارساله الى المستلم برساله نصية او اي طريقة اخرى
+      
+      <br>      <br>
+
+       التحويل داخل القطر يتم عن طريق مكاتب التحويل المنتشرة في المحافظات حيث يتطلب 
+       اسم مستلم الحواله و المحافظة و عند اتمام التحويل يبلغ الطرف المستلم باتمام التحويل و عنوان المكتب في محافظته لاستلام المبلغ
+
+       <p text-right	>   {{challenge.westernunion}} </p>
+   
+    <p text-right	>   {{challenge.ourbranches}} </p>
+    <p text-right	>   {{challenge.support1}} </p>
+    <p text-right	>   {{challenge.support2}} </p>
+    <p text-right	>   {{challenge.support3}} </p>
+    <p text-right	>   {{challenge.support4}} </p>
+    <p text-right	>   {{challenge.support5}} </p>
+    <p text-right	>   {{challenge.support6}} </p>
+    <p text-right	>   {{challenge.support7}} </p>
+    <p text-right	>   {{challenge.support8}} </p>
+    <p text-right	>   {{challenge.support9}} </p>
+    <p text-right	>   {{challenge.support10}} </p>
+
+  </div>
+</div>
+
+ 
+
+</ion-content>

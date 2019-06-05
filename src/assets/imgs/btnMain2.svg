@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 161.995 63.013">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1abc9c;
+        opacity: 0.792;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #46c7ad;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_1480);
+      }
+    </style>
+    <filter id="Rectangle_1480" x="0" y="0" width="161.995" height="63.013" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#1abc9c" flood-opacity="0.306"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1060" data-name="Group 1060" transform="translate(-206.505 -414)">
+    <g id="Group_409" data-name="Group 409" transform="translate(7 58)">
+      <g id="Group_223" data-name="Group 223" transform="translate(175.505 350)">
+        <g class="cls-4" transform="matrix(1, 0, 0, 1, 24, 6)">
+          <rect id="Rectangle_1480-2" data-name="Rectangle 1480" class="cls-1" width="143.995" height="45.013" rx="22.507" transform="translate(9 5)"/>
+        </g>
+      </g>
+    </g>
+    <path id="Subtraction_2" data-name="Subtraction 2" class="cls-2" d="M-628,1316.013a22.37,22.37,0,0,1-8.761-1.769,22.433,22.433,0,0,1-7.154-4.823,22.433,22.433,0,0,1-4.824-7.154,22.363,22.363,0,0,1-1.769-8.76,22.365,22.365,0,0,1,1.769-8.761,22.433,22.433,0,0,1,4.824-7.154,22.436,22.436,0,0,1,7.154-4.823A22.37,22.37,0,0,1-628,1271h18.186v45.013H-628Z" transform="translate(-290.307 1735.013) rotate(180)"/>
+    <path id="ic_trending_up_24px" class="cls-3" d="M22.533,6l3.359,3.359-7.157,7.157-5.867-5.867L2,21.532,4.068,23.6l8.8-8.8,5.867,5.867,9.24-9.225L31.333,14.8V6Z" transform="translate(320.506 426.497)"/>
+  </g>
+</svg>

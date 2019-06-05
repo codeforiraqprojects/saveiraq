@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379 134.698">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #a9b3d0;
+      }
+
+      .cls-3 {
+        filter: url(#Subtraction_9);
+      }
+
+      .cls-4 {
+        filter: url(#Subtraction_3);
+      }
+    </style>
+    <filter id="Subtraction_3" x="0" y="0" width="379" height="134.698" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#273c75" flood-opacity="0.184"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_9" x="320.5" y="7.158" width="47.503" height="47.118" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-color="#273c75" flood-opacity="0.306"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1058" data-name="Group 1058" transform="translate(-1 -277.853)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 1, 277.85)">
+      <path id="Subtraction_3-2" data-name="Subtraction 3" class="cls-1" d="M334,98.7H9a8.945,8.945,0,0,1-9-8.869V8.868A8.945,8.945,0,0,1,9,0H316.962L343,25.659v64.17A8.945,8.945,0,0,1,334,98.7Z" transform="translate(15 14)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 1, 277.85)">
+      <path id="Subtraction_9-2" data-name="Subtraction 9" class="cls-2" d="M26.5,26.118H9a8.946,8.946,0,0,1-9-8.869V0L26.5,26.116Z" transform="translate(331 13.66)"/>
+    </g>
+  </g>
+</svg>

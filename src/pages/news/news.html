@@ -1,0 +1,44 @@
+<!--
+  Generated template for the NewsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+ 
+
+
+
+
+<ion-content  >
+
+    <ion-grid>
+        <ion-row>
+          <ion-col text-right>
+              <h1 text-right padding   id='mainHeader'>    الاخبار    </h1>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col text-right padding>
+              اذا كنت تمتلك اخبار ومن مصادر مؤكدة يمكنم اضافتها   
+           <p>  <span id="spanClick" (click)="goToAddNEWS()"> اضغط هنا   </span> </p> 
+            </ion-col>
+          </ion-row>
+         
+      </ion-grid>
+
+ 
+    <ion-grid id='grid2'   *ngFor="let subjects of newsList | async">
+        <div *ngIf="subjects.show === 'true'">
+       <ion-row >
+      
+              <ion-col  (click)="goToDetails( subjects.key )">
+                <div> <img src="assets/imgs/message3.svg">
+                </div>
+                 <div class="top-right">  <p class="myColor">   {{ subjects.title  }}   </p>     </div>
+                 <div class="bottom-left">    {{ subjects.province  }}   </div>
+              </ion-col>
+           
+            </ion-row>
+          </div>
+      </ion-grid>
+</ion-content>

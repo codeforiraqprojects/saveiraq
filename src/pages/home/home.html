@@ -1,0 +1,91 @@
+<ion-content >
+
+  
+
+<div   *ngIf="email">
+  <img   id="headerImg" src="assets/imgs/sign-out.svg" (click)="logout()">           
+ <h5  id='mainDiv2' text-left  text-center class="emailCSS">  {{email}}  </h5>  
+</div>
+
+
+ 
+
+
+<div padding id='mainDiv'>
+    
+<div  *ngFor="let challenge of challengeList | async" >
+    <h4 id='mainH2' text-center	>{{challenge.title}}</h4>
+    <hr>
+</div>
+  
+    <ion-grid id="mainText">
+        <ion-row>
+          <ion-col *ngFor="let challenge of challengeList | async" >
+              <h3>دع   {{challenge.requiredamount}}  </h3>
+          </ion-col>
+          <ion-col text-right>
+              <h3>   المطلوب   </h3>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col *ngFor="let challenge of challengeList | async" >
+                <h3> دع  {{challenge.donorsamount}}  </h3>
+            </ion-col>
+            <ion-col text-right>
+                <h3>  التبرعات   </h3>
+            </ion-col>
+          </ion-row>
+         
+      </ion-grid>
+
+
+     
+   
+
+</div>
+
+
+
+<ion-grid id='grid2' >
+    <ion-row>
+      <ion-col  >
+          <div class="container">
+         <img src="assets/imgs/message.svg">
+         </div>
+         <div class="top-right">  <p  class="myColor2">افضل متبرع</p>     </div>
+         <div class="centered"  *ngFor="let bestDonorName of bestDonorNameList | async" >  
+             <p>     {{bestDonorName.bestDonorName}}    </p>  
+             </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+            <ion-col  (click)="donors()">
+              <div>
+                  <img src="assets/imgs/btnMain.svg">
+              </div>
+              <div class="top-right2">   <h6  class="myColor">المتبرعين</h6>    </div>
+            </ion-col>
+            <ion-col  (click)="statistics()">
+                <div>
+                <img src="assets/imgs/btnMain2.svg">
+              </div>
+                <div class="top-right3"><h6 class="myColor">احصائيات</h6>   </div>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+          <ion-col   >
+            <div> <img src="assets/imgs/message2.svg">
+            </div>
+            <div   *ngFor="let weeklyquote of weeklyquoteList | async">
+             <div class="top-right">  <p class="myColor">  {{weeklyquote.quotename}} </p>     </div>
+             <div class="centered2">  <p class="myColor">   {{weeklyquote.myQuote}}  </p>  </div>
+            </div>
+          </ion-col>
+        </ion-row>
+   
+
+  </ion-grid>
+
+
+
+</ion-content>

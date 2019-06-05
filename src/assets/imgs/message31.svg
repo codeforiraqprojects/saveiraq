@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379 113.971">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #a9b3d0;
+      }
+
+      .cls-3 {
+        fill: #786fa6;
+      }
+
+      .cls-4 {
+        filter: url(#Subtraction_9);
+      }
+
+      .cls-5 {
+        filter: url(#Subtraction_3);
+      }
+    </style>
+    <filter id="Subtraction_3" x="0" y="0" width="379" height="113.971" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#273c75" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_9" x="324.5" y="3.229" width="47.503" height="41.632" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-color="#273c75" flood-opacity="0.306"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1058" data-name="Group 1058" transform="translate(2 -43.768)">
+    <g id="Group_1039" data-name="Group 1039" transform="translate(0 -245)">
+      <g id="Group_1027" data-name="Group 1027" transform="translate(0 97)">
+        <g class="cls-5" transform="matrix(1, 0, 0, 1, -2, 191.77)">
+          <path id="Subtraction_3-2" data-name="Subtraction 3" class="cls-1" d="M334,77.971H9c-4.963,0-9-3.143-9-7.007V7.007C0,3.143,4.037,0,9,0H316.962L343,20.271V70.964C343,74.828,338.963,77.971,334,77.971Z" transform="translate(18 10)"/>
+        </g>
+        <g class="cls-4" transform="matrix(1, 0, 0, 1, -2, 191.77)">
+          <path id="Subtraction_9-2" data-name="Subtraction 9" class="cls-2" d="M26.5,20.633H9c-4.963,0-9-3.143-9-7.006V0L26.5,20.631Z" transform="translate(335 9.73)"/>
+        </g>
+      </g>
+    </g>
+    <path id="ic_insert_comment_24px" class="cls-3" d="M30.648,2H5.183A3.192,3.192,0,0,0,2,5.183v19.1a3.192,3.192,0,0,0,3.183,3.183H27.465l6.366,6.366V5.183A3.192,3.192,0,0,0,30.648,2ZM27.465,21.1H8.366V17.916h19.1Zm0-4.775H8.366V13.141h19.1Zm0-4.775H8.366V8.366h19.1Z" transform="translate(282.925 78.993)"/>
+  </g>
+</svg>
